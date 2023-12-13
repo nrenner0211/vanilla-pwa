@@ -4,14 +4,45 @@
     <head>
         <meta charset="UTF=8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#009578">
+        <meta name="theme-color" content="#1976d2">
         <title>PWA</title>
         <link rel="stylesheet" href="assets/styles.css">
+        <!-- Boxicons Import -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="manifest" href="manifest.json">
         <link rel="apple-touch-icon" href="images/192.png">
     </head>
     <body>
-        <h1>Hello World</h1>
+        <header class="header">
+            <a href="#home" class="logo">
+                ABC <span>Roofing Co.</span>
+            </a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="nav">
+                <a href="#home" class="active">Home</a>
+                <a href="#about" class="active">About</a>
+                <a href="#services" class="active">Services</a>
+                <a href="#portfolio" class="active">Portfolio</a>
+                <a href="#contact" class="active">Contact</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>ABC Roofing Co.</h1>
+                <h3>We solve all your <span>roofing problems</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro labore soluta culpa reprehenderit aspernatur ullam nostrum nisi nulla, reiciendis quas asperiores praesentium. Reiciendis velit omnis delectus suscipit maxime exercitationem quos!</p>
+
+                <div class="social-icons">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </section>
+
         <script src="assets/index.js"></script>
     </body>
 </html>
